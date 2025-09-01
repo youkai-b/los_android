@@ -32,11 +32,8 @@
     <project path="external/yifan" name="LMODroid/platform_external_yifan" remote="lmodroid" />
 
     <!-- Frameworks -->
-    <project path="frameworks/av" name="LMODroid/platform_frameworks_av" remote="lmodroid" />
     <project path="frameworks/libs/net" name="LMODroid/platform_frameworks_libs_net" remote="lmodroid" />
     <project path="frameworks/libs/systemui" name="LMODroid/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="lmodroid" />
-    <project path="frameworks/native" name="LMODroid/platform_frameworks_native" remote="lmodroid" />
-
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LMODroid/platform_packages_apps_Aperture" remote="lmodroid" />
@@ -45,7 +42,6 @@
     <project path="packages/apps/DeskClock" name="LMODroid/platform_packages_apps_DeskClock" remote="lmodroid" />
     <project path="packages/apps/DesktopMode" name="LMODroid/platform_packages_apps_DesktopMode" remote="lmodroid" />
     <project path="packages/apps/Dialer" name="LMODroid/platform_packages_apps_Dialer" remote="lmodroid" />
-    <project path="packages/apps/DocumentsUI" name="LMODroid/platform_packages_apps_DocumentsUI" remote="lmodroid" />
     <project path="packages/apps/Etar" name="LMODroid/platform_packages_apps_Etar" remote="lmodroid" />
     <project path="packages/apps/ExactCalculator" name="LMODroid/platform_packages_apps_ExactCalculator" remote="lmodroid" />
     <project path="packages/apps/F-DroidPrivilegedExtension" name="LMODroid/platform_packages_apps_F-DroidPrivilegedExtension" remote="lmodroid" />
@@ -56,7 +52,6 @@
     <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
     <project path="packages/apps/ImsServiceEntitlement" name="LMODroid/platform_packages_apps_ImsServiceEntitlement" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
-    <project path="packages/apps/ManagedProvisioning" name="LMODroid/platform_packages_apps_ManagedProvisioning" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
     <project path="packages/apps/Music" name="LMODroid/platform_packages_apps_Music" remote="lmodroid" />
     <project path="packages/apps/MusicFX" name="LMODroid/platform_packages_apps_MusicFX" remote="lmodroid" />
@@ -74,17 +69,12 @@
     <project path="packages/apps/WallpaperPicker2" name="LMODroid/platform_packages_apps_WallpaperPicker2" remote="lmodroid" />
     <project path="packages/inputmethods/LatinIME" name="LMODroid/platform_packages_inputmethods_LatinIME" remote="lmodroid" />
     <project path="packages/modules/adb" name="LMODroid/platform_packages_modules_adb" remote="lmodroid" />
-    <project path="packages/modules/Bluetooth" name="LMODroid/platform_packages_modules_Bluetooth" remote="lmodroid" />
-    <project path="packages/modules/Connectivity" name="LMODroid/platform_packages_modules_Connectivity" remote="lmodroid" />
     <project path="packages/modules/DnsResolver" name="LMODroid/platform_packages_modules_DnsResolver" remote="lmodroid" />
     <project path="packages/modules/StatsD" name="LMODroid/platform_packages_modules_StatsD" remote="lmodroid" />
-    <project path="packages/modules/Wifi" name="LMODroid/platform_packages_modules_Wifi" remote="lmodroid" />
     <project path="packages/overlays/LMODroid" name="LMODroid/platform_packages_overlays_LMODroid" remote="lmodroid" />
-    <project path="packages/providers/MediaProvider" name="LMODroid/platform_packages_providers_MediaProvider" remote="lmodroid" />
     <project path="packages/providers/TelephonyProvider" name="LMODroid/platform_packages_providers_TelephonyProvider" remote="lmodroid" />
     <project path="packages/resources/devicesettings" name="LMODroid/platform_packages_resources_devicesettings" remote="lmodroid" />
     <project path="packages/services/AlternativeNetworkAccess" name="LMODroid/platform_packages_services_AlternativeNetworkAccess" remote="lmodroid" />
-    <project path="packages/services/Telecomm" name="LMODroid/platform_packages_services_Telecomm" remote="lmodroid" />
     <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" remote="lmodroid" />
 
     <!-- Prebuilts -->

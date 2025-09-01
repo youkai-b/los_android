@@ -53,9 +53,12 @@
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/cldr" />
+    <remove-project name="platform/external/dng_sdk" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
+    <remove-project name="platform/external/freetype" />
+    <remove-project name="platform/external/giflib" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/icu" />
     <remove-project name="platform/external/libcxx" />
@@ -64,6 +67,7 @@
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/pdfium" />
     <remove-project name="platform/external/setupcompat" />
+    <remove-project name="platform/external/skia" />
     <remove-project name="platform/external/sonivox" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/webp" />
@@ -145,6 +149,7 @@
     <remove-project name="platform/packages/modules/common" />
     <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/DnsResolver" />
+    <remove-project name="platform/packages/modules/IntentResolver" />
     <remove-project name="platform/packages/modules/NeuralNetworks" />
     <remove-project name="platform/packages/modules/Permission" />
     <remove-project name="platform/packages/modules/StatsD" />

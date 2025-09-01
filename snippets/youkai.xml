@@ -20,13 +20,23 @@
     </project>
 
     <!-- Frameworks -->
+    <project path="frameworks/av" name="los_fav" remote="yk" />
     <project path="frameworks/base" name="los_fwb" remote="yk" />
+    <project path="frameworks/native" name="los_fwn" remote="yk" />
+
 
     <!-- Manifest -->
     <project path="manifest" name="los_android" remote="yk" />
 
     <!-- Packages -->
+    <project path="packages/apps/DocumentsUI" name="los_packages_apps_DocumentsUI" remote="yk" />
+    <project path="packages/apps/ManagedProvisioning" name="los_packages_apps_ManagedProvisioning" remote="yk" />
     <project path="packages/apps/Settings" name="los_settings" remote="yk" />
+    <project path="packages/modules/Bluetooth" name="los_packages_modules_Bluetooth" remote="yk" />
+    <project path="packages/modules/Connectivity" name="los_packages_modules_Connectivity" remote="yk" />
+    <project path="packages/modules/Wifi" name="los_packages_modules_Wifi" remote="yk" />
+    <project path="packages/providers/MediaProvider" name="los_packages_providers_MediaProvider" remote="yk" />
+    <project path="packages/services/Telecomm" name="los_packages_services_Telecomm" remote="yk" />
 
     <!-- System -->
     <project path="system/core" name="los_system_core" remote="yk" />
