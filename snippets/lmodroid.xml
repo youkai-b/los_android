@@ -6,14 +6,7 @@
         revision="thirteen"
         review="gerrit.libremobileos.com" />
 
-    <!-- Bionic -->
-    <project path="bionic" name="LMODroid/platform_bionic" groups="pdk" remote="lmodroid" />
-
     <!-- Build -->
-    <project path="build/soong" name="LMODroid/platform_build_soong" remote="lmodroid" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
     <project path="build/blueprint" name="LMODroid/platform_build_blueprint" remote="lmodroid" groups="pdk,tradefed" />
 
     <!-- CTS -->
@@ -89,7 +82,6 @@
     <project path="tools/apksig" name="LMODroid/platform_tools_apksig" remote="lmodroid" />
 
     <!-- Vendor -->
-    <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
     <project path="vendor/support" name="LMODroid/platform_vendor_support" remote="lmodroid" />
 
 </manifest>

@@ -5,6 +5,9 @@
         fetch="https://github.com/youkai-b"
         revision="13-ld" />
 
+    <!-- Bionic -->
+    <project path="bionic" name="los_bionic" groups="pdk" remote="yk" />
+
     <!-- Bootable -->
     <project path="bootable/recovery" name="los_bootable_recovery" remote="yk" />
 
@@ -18,12 +21,18 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
+    <project path="build/soong" name="los_build_soong" remote="yk" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="los_fav" remote="yk" />
     <project path="frameworks/base" name="los_fwb" remote="yk" />
     <project path="frameworks/native" name="los_fwn" remote="yk" />
 
+    <!-- External -->
+    <project path="external/jemalloc_new" name="los_jemalloc-new" revision="13" remote="yb" />
 
     <!-- Manifest -->
     <project path="manifest" name="los_android" remote="yk" />
@@ -40,4 +49,7 @@
 
     <!-- System -->
     <project path="system/core" name="los_system_core" remote="yk" />
+
+    <!-- Vendor -->
+    <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
 </manifest>

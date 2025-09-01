@@ -61,6 +61,7 @@
     <remove-project name="platform/external/giflib" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/icu" />
+    <remove-project name="platform/external/jemalloc_new" />
     <remove-project name="platform/external/libcxx" />
     <remove-project name="platform/external/libvpx" />
     <remove-project name="platform/external/libxml2" />
