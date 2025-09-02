@@ -32,7 +32,7 @@
     <project path="frameworks/native" name="los_fwn" remote="yk" />
 
     <!-- External -->
-    <project path="external/jemalloc_new" name="los_jemalloc-new" revision="13" remote="yb" />
+    <project path="external/jemalloc_new" name="los_jemalloc-new" revision="13" remote="yk" />
 
     <!-- Manifest -->
     <project path="manifest" name="los_android" remote="yk" />
@@ -51,5 +51,5 @@
     <project path="system/core" name="los_system_core" remote="yk" />
 
     <!-- Vendor -->
-    <project path="vendor/lmodroid" name="LMODroid/platform_vendor_lmodroid" remote="lmodroid" />
+    <project path="vendor/lmodroid" name="los_vendor" remote="yk" />
 </manifest>
