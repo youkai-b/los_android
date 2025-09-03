@@ -14,8 +14,8 @@
     <!-- Build -->
     <project path="build/blueprint" name="platform_build_blueprint" remote="lmodroid" groups="pdk,tradefed" />
 
-    <!-- CTS -->
-    <project path="cts" name="platform_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lmodroid" />
+    <!-- CTS
+    <project path="cts" name="platform_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lmodroid" /> -->
 
     <!-- Device -->
     <project path="device/generic/common" name="LMODroid-Devices/device_generic_common" remote="ghb" />

@@ -8,6 +8,10 @@
     <remote name="lineage-gitlab"
         fetch="https://gitlab.com/LineageOS" />
 
+
+    <!-- CTS -->
+    <project path="cts" name="android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" />
+
     <!-- CodeLinaro additions -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="lineage" />
     <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-20.0-legacy-um" remote="lineage" />
